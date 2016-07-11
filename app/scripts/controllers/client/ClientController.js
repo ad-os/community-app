@@ -87,7 +87,8 @@
 
 
 
-    mifosX.ng.application.controller('ClientController', ['$scope', 'ResourceFactory', '$location', mifosX.controllers.ClientController]).run(function ($log) {
+    mifosX.ng.application.controller('ClientController', ['$scope', 'ResourceFactory', '$location',
+        mifosX.controllers.ClientController]).run(function ($log) {
         $log.info("ClientController initialized");
     });
 }(mifosX.controllers || {}));
